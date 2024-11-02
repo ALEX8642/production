@@ -7,6 +7,9 @@ import pickle
 from sklearn.pipeline import Pipeline
 from sklearn.model_selection import GridSearchCV, train_test_split
 import os
+import sys
+print(sys.executable)
+
 from dotenv import load_dotenv
 
 from logger import get_logger
